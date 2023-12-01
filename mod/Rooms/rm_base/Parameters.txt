@@ -1,3 +1,0 @@
-Name: ;
-Size: X - ; Y - ;
-Flags: EnableViews, ShowColor, IsGMS2_3, IsGMS2
