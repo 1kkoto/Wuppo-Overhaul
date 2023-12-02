@@ -1,0 +1,2 @@
+if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 30 && keyboard_check(ord(global.key_binding[3])))
+    global.room_x = (global.room_x + 1000)

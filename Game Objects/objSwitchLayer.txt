@@ -1,0 +1,6 @@
+Name: objSwitchLayer
+Sprite: -
+
+Events:
+
+Step: gml_Object_objSwitchLayer_step_0 (UndertaleCode)
