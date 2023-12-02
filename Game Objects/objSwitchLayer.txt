@@ -1,6 +1,7 @@
 Name: objSwitchLayer
-Sprite: -
+Sprite: sprBoboMask
+Texture mask id: sprBoboMask
 
 Events:
-
+Create: gml_Object_objSwitchLayer_create_0 (UndertaleCode)
 Step: gml_Object_objSwitchLayer_step_0 (UndertaleCode)
