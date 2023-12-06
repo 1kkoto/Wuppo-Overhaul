@@ -1,13 +1,15 @@
-if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 50 && keyboard_check(ord("K")))
+if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 50 && keyboard_check(ord("C")))
 {
     if (global.room_x <= 1000)
     {
         nextroom = ((("rm_" + string((global.room_x + 1000))) + "_") + string(global.room_y))
         room_goto(asset_get_index(nextroom))
+        global.last_roomchange_time = current_time
     }
     else
     {
         nextroom = ((("rm_" + string((global.room_x - 1000))) + "_") + string(global.room_y))
         room_goto(asset_get_index(nextroom))
+        global.last_roomchange_time = current_time
     }
 }
