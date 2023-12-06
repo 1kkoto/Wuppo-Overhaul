@@ -1,0 +1,9 @@
+Name: rm_5013_9
+
+Size: 700; 500
+Persistent: N
+Flags: EnableViews, ShowColor, IsGMS2_3, IsGMS2
+
+Grid Width: 20
+Grid Height: 20
+Grid Thickness: 1
