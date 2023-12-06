@@ -1,6 +1,10 @@
 Name: objSwitchLayer
-Sprite: sprBoboMask
-Texture mask id: sprBoboMask
+Sprite: sprSwitchLayer
+Visible: Y
+Solid: N
+Persistent: N
+Texture mask id: sprSwitchLayer
+Collision shape: Circle
 
 Events:
 Create: gml_Object_objSwitchLayer_create_0 (UndertaleCode)

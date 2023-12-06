@@ -1,4 +1,4 @@
-if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 30 && keyboard_check(ord("P")))
+if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 50 && keyboard_check(ord("K")))
 {
     if (global.room_x <= 1000)
     {

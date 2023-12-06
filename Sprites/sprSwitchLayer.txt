@@ -1,0 +1,3 @@
+Size: 35; 50;
+Textures: PageItem 10935 (UndertaleTexturePageItem)
+Collision Masks: colSwitchLayer

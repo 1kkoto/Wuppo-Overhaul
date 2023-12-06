@@ -1,0 +1,4 @@
+Source position/size: 0; 0; 35; 50;
+Target position/size: 0; 0; 35; 50;
+Bounding size: 35; 50;
+Texture: Texture 50 (UndertaleEmbeddedTexture)
