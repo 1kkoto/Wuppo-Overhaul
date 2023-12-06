@@ -10,7 +10,7 @@ if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 
     else
     {
         roomx = (global.room_x - 1000)
-        nextroom = ((("rm_" + string(roomxn)) + "_") + string(global.room_y))
+        nextroom = ((("rm_" + string(roomx)) + "_") + string(global.room_y))
         room_goto(asset_get_index(nextroom))
         global.last_roomchange_time = current_time
     }
