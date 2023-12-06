@@ -1,17 +1,19 @@
 if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 50 && keyboard_check(ord("C")))
 {
-    if (global.room_x <= 1000)
+    if (global.room_x <= 4500)
     {
-        roomx = (global.room_x + 1000)
+        roomx = (global.room_x + 5000)
         nextroom = ((("rm_" + string(roomx)) + "_") + string(global.room_y))
         room_goto(asset_get_index(nextroom))
         global.last_roomchange_time = current_time
+        scrBackgroundLoadTileAdd()
     }
     else
     {
-        roomx = (global.room_x - 1000)
+        roomx = (global.room_x - 5000)
         nextroom = ((("rm_" + string(roomx)) + "_") + string(global.room_y))
         room_goto(asset_get_index(nextroom))
         global.last_roomchange_time = current_time
+        scrBackgroundLoadTileAdd()
     }
 }
