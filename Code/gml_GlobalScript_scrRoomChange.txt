@@ -1,0 +1,8 @@
+Line 444:
+ if (argument0 == 5)
+        {
+            if (global.room_x <= 4500)
+                global.room_x += 5000
+            else
+                global.room_x -= 5000
+        }
