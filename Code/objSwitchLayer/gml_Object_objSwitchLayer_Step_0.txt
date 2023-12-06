@@ -3,11 +3,11 @@ if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 
     if (global.room_x <= 1000)
     {
         nextroom = ((("rm_" + string((global.room_x + 1000))) + "_") + string(global.room_y))
-        room_goto(nextroom)
+        room_goto(asset_get_index(nextroom))
     }
     else
     {
         nextroom = ((("rm_" + string((global.room_x - 1000))) + "_") + string(global.room_y))
-        room_goto(nextroom)
+        room_goto(asset_get_index(nextroom))
     }
 }
