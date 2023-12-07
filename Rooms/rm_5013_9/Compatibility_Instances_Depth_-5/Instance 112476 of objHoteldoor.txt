@@ -1,0 +1,10 @@
+Position: 464; 172;
+Definition: objBlock1 (UndertaleGameObject)
+Instance ID: 112476
+Creation Code: -
+Scale: -1; 1
+Color: #FFFFFFFF
+Rotation: 0
+Frame index: 0
+Image speed: 1
+Pre Create Code: -

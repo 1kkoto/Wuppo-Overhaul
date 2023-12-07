@@ -1,6 +1,6 @@
-Position: 320; 352;
+Position: 368; 144;
 Definition: objSwitchLayer (UndertaleGameObject)
-Instance ID: 112450
+Instance ID: 112466
 Creation Code: -
 Scale: 1; 1
 Color: #FFFFFFFF

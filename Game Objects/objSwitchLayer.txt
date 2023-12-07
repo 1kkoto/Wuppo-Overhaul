@@ -4,7 +4,7 @@ Visible: Y
 Solid: N
 Persistent: N
 Texture mask id: sprSwitchLayer
-Collision shape: Circle
+Collision shape: Box
 
 Events:
 Create: gml_Object_objSwitchLayer_create_0 (UndertaleCode)
