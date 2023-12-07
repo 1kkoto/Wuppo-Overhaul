@@ -1,4 +1,4 @@
 Layer type: Background
 Depth: 2147483600
 
-Color: #FF000000
+Color: #FFF1E71B
