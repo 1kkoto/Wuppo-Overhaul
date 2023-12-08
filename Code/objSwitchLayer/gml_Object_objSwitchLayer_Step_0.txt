@@ -1,2 +1,2 @@
-if (point_distance(objBobo.x, objBobo.y, objSwitchLayer.x, objSwitchLayer.y) <= 50 && keyboard_check(ord("C")))
+if (point_distance(objBobo.x, objBobo.y, instance_nearest(objBobo.x, objBobo.y, objSwitchLayer).x, instance_nearest(objBobo.x, objBobo.y, objSwitchLayer).y) <= 50 && keyboard_check(ord("C")))
     scrRoomChange(5)
